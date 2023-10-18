@@ -19,7 +19,7 @@ body {
     margin: 1%;
 }
 
-#terning1 {
+.terning {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -45,20 +45,6 @@ body {
     background-color: #333;
     box-shadow: inset 0 3px #111, inset 0 -3px #555;
     opacity: 1;
-}
-
-#terning2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    padding: 12px;
-    width: 85px;
-    height: 85px;
-    background-color: #d2bfbf;
-    box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7,
-        inset -5px 0 #d7d7d7;
-    border-radius: 15%;
-
 }
 
 .plet2 {
@@ -91,19 +77,6 @@ body {
     opacity: 1;
 }
 
-#terning3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    padding: 12px;
-    width: 85px;
-    height: 85px;
-    background-color: #d2bfbf;
-    box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7,
-        inset -5px 0 #d7d7d7;
-    border-radius: 15%;
-}
-
 .plet5 {
     display: block;
     align-self: center;
@@ -117,19 +90,6 @@ body {
     background-color: #333;
     box-shadow: inset 0 3px #111, inset 0 -3px #555;
     opacity: 4;
-}
-
-#terning4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    padding: 12px;
-    width: 85px;
-    height: 85px;
-    background-color: #d2bfbf;
-    box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7,
-        inset -5px 0 #d7d7d7;
-    border-radius: 15%;
 }
 
 .plet5 {
@@ -166,32 +126,6 @@ body {
     background-color: #333;
     box-shadow: inset 0 3px #111, inset 0 -3px #555;
     opacity: 4;
-}
-
-#terning5 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    padding: 12px;
-    width: 85px;
-    height: 85px;
-    background-color: #d2bfbf;
-    box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7,
-        inset -5px 0 #d7d7d7;
-    border-radius: 15%;
-}
-
-#terning6 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    padding: 12px;
-    width: 85px;
-    height: 85px;
-    background-color: #d2bfbf;
-    box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7,
-        inset -5px 0 #d7d7d7;
-    border-radius: 15%;
 }
 
 .plet7 {
