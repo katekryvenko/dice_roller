@@ -1,0 +1,225 @@
+body {
+    background: radial-gradient(green, #a0a015);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container div {
+    margin: 1%;
+}
+
+#terning1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 12px;
+    width: 85px;
+    height: 85px;
+    background-color: #d2bfbf;
+    box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7,
+        inset -5px 0 #d7d7d7;
+    border-radius: 15%;
+}
+
+.plet1 {
+    display: block;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-row: 2;
+    grid-column: 2;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #333;
+    box-shadow: inset 0 3px #111, inset 0 -3px #555;
+    opacity: 1;
+}
+
+#terning2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 12px;
+    width: 85px;
+    height: 85px;
+    background-color: #d2bfbf;
+    box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7,
+        inset -5px 0 #d7d7d7;
+    border-radius: 15%;
+
+}
+
+.plet2 {
+    display: block;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-row: 1;
+    grid-column: 3;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #333;
+    box-shadow: inset 0 3px #111, inset 0 -3px #555;
+    opacity: 2;
+}
+
+.plet3 {
+    display: block;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-row: 3;
+    grid-column: 1;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #333;
+    box-shadow: inset 0 3px #111, inset 0 -3px #555;
+    opacity: 1;
+}
+
+#terning3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 12px;
+    width: 85px;
+    height: 85px;
+    background-color: #d2bfbf;
+    box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7,
+        inset -5px 0 #d7d7d7;
+    border-radius: 15%;
+}
+
+.plet5 {
+    display: block;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-row: 2;
+    grid-column: 2;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #333;
+    box-shadow: inset 0 3px #111, inset 0 -3px #555;
+    opacity: 4;
+}
+
+#terning4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 12px;
+    width: 85px;
+    height: 85px;
+    background-color: #d2bfbf;
+    box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7,
+        inset -5px 0 #d7d7d7;
+    border-radius: 15%;
+}
+
+.plet5 {
+    display: block;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    display: block;
+    align-self: center;
+    justify-self: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #333;
+    box-shadow: inset 0 3px #111, inset 0 -3px #555;
+    opacity: 4;
+}
+
+.plet6 {
+    display: block;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-row: 3;
+    grid-column: 3;
+    display: block;
+    align-self: center;
+    justify-self: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #333;
+    box-shadow: inset 0 3px #111, inset 0 -3px #555;
+    opacity: 4;
+}
+
+#terning5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 12px;
+    width: 85px;
+    height: 85px;
+    background-color: #d2bfbf;
+    box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7,
+        inset -5px 0 #d7d7d7;
+    border-radius: 15%;
+}
+
+#terning6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 12px;
+    width: 85px;
+    height: 85px;
+    background-color: #d2bfbf;
+    box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7,
+        inset -5px 0 #d7d7d7;
+    border-radius: 15%;
+}
+
+.plet7 {
+    display: block;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-row: 2;
+    grid-column: 1;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #333;
+    box-shadow: inset 0 3px #111, inset 0 -3px #555;
+    opacity: 3;
+}
+
+.plet8 {
+    display: block;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-row: 2;
+    grid-column: 3;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #333;
+    box-shadow: inset 0 3px #111, inset 0 -3px #555;
+    opacity: 3;
+}
